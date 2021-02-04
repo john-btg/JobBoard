@@ -1,0 +1,213 @@
+@import url( 'https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  }
+* {
+    box-sizing: border-box;
+}
+*
+{
+  list-style: none;
+
+}
+body {
+    background: #1C8EF9 !important;
+    min-height: 100vh;
+    display: flex;
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#root,
+.App,
+.auth-wrapper,
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.auth-inner {
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 14px 80px rgba(34, 35, 58, 0.2);
+    box-sizing: border-box;
+    flex: content;
+    padding: 40px 55px 45px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-size: 13px;
+}
+.auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+.custom-control-label {
+    font-weight: 300;
+}
+
+.forgot-password,
+.forgot-password a {
+    text-align: right;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+}
+
+.forgot-password a {
+    color: #167bff;
+}
+.margin-left {
+    margin-left: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #167bff;
+    /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+.adsStyle {
+    height: auto;
+}
+.btnEdit {
+    color: #ff781f;
+}
+.btnDelete {
+    color: #900A22;
+
+}
+
+.category {
+    position: -webkit-sticky !important;
+    /* Required for Safari */
+    top: 50px !important;
+    position: sticky !important;
+}
+
+.liList:hover
+{
+  background: #ffffffda;
+
+}
+.liList:active
+{
+  background: #ffffffda;
+
+}
+
+
+  .modal-backdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: -1 !important;
+  }
+  .nav-link {
+    border-top: 2px solid white;
+    transition: border-top 1s;
+  }
+  .nav-link:hover {
+    border-top: 2px solid dodgerblue;
+  }
+
+  /*TEST*/
+  .col-left{
+    width: 25%;
+  }
+  .col-right{
+    width: 75%;
+  }
+  .truncate
+  {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  .col-home-left{
+  width: 30%;
+}
+.col-home-right{
+  width:70% !important;
+}
+.margin-very-little-top
+{
+  margin-top: 3px;
+}
+.modal-content{
+  height: 600px;
+}
+
+.apply
+{
+  float:right !important;
+}
+/*RESPONSIVE */
+@media screen and (max-width:499px) {
+  .margin-top {
+    margin-top: 100px;
+}
+}
+
+@media screen and (min-width:500px) and (max-width:768px) {
+}
+
+@media screen and (min-width:769px) and (max-width:1260px) {
+
+}
+
+@media screen and (min-width:1260px) {
+
+}
